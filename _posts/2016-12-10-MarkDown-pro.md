@@ -101,12 +101,14 @@ id sem consectetuer libero luctus adipiscing.
 *   Blue
 ```
 等同于：
+
 ```
 +   Red
 +   Green
 +   Blue
 ```
 等同于：
+
 ```
 -   Red
 -   Green
@@ -150,6 +152,7 @@ id sem consectetuer libero luctus adipiscing.
 ```
 
 你都会得到完全相同的 HTML 输出。  
+
 建议第一个项目最好还是从 1. 开始，因为 Markdown 未来可能会支持有序列表的 start 属性。
 
 列表项目标记通常是放在最左边，但是其实也可以缩进，最多 3 个空格，项目标记后面则一定要接着至少一个空格或制表符。
@@ -177,6 +180,7 @@ id sem consectetuer libero luctus adipiscing.
 *   Another item in the same list.
 
 如果要在列表项目内放进引用，那 > 就需要缩进4个空格或一个制表符：
+
 ```
 *   A list item with a blockquote:
 
@@ -217,6 +221,7 @@ id sem consectetuer libero luctus adipiscing.
 和程序相关的写作或是标签语言原始码通常会有已经排版好的代码区块，通常这些区块我们并不希望它以一般段落文件的方式去排版，而是照原来的样子显示，Markdown 会用 `<pre>` 和 `<code>` 标签来把代码区块包起来。
 
 要在 Markdown 中建立代码区块很简单，只要简单地缩进 4 个空格或是 1 个制表符就可以,一个代码区块会一直持续到没有缩进的那一行（或是文件结尾）:
+
 ```
 	#include<stdio.h>  
 	int main()  
