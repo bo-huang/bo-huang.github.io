@@ -23,7 +23,7 @@ Windows系统下，推荐大家用[MarkDownPad2][]，它支持多种markdown处�
 ***Tips:***
 
 - **如果你使用的不是kramdown，那么你必须在_config.yml中将其修改为markdown:kramdown**
-- **可以在Tools->Options->Markdown中设置markdown prcessor**
+- **可以在Tools->Options->Markdown中设置markdown processor**
 
 我的 markdown processor 设置是：  
 ![processor](/images/posts/markdown_processor.bmp)  
