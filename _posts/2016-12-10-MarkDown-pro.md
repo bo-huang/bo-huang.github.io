@@ -355,3 +355,13 @@ Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的�
 	-   减号
 	.   英文句点
 	!   惊叹号
+
+# 结语
+
+以上就是 Markdown 的的标准语法，当然现在有很多 Markdown 处理器使用的 superset-markdown ，比如：
+-  表格标签
+-  插入“Enter”段内换行
+-  前后各用三个 ```language 高亮代码
+-  ……
+
+更多请参考：<https://kramdown.gettalong.org/syntax.html>
