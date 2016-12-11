@@ -320,7 +320,8 @@ This is [an example][] reference-style link.
 
 This is [an example][] reference-style link.  
 
-[an example]: https://www.baidu.com "Optional Title Here"  
+[an example]: https://www.baidu.com "Optional Title Here"
+
 ### 图片
 图片和链接用法类似，区别是在前面加一个 ！ ：
 
@@ -363,6 +364,7 @@ A backtick-delimited string in a code span: `` `foo` ``
 到目前为止， Markdown 还没有办法指定图片的宽高，如果你需要的话，你可以使用普通的 <img> 标签。
 
 # 其它
+
 ### 自动链接
 
 Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用方括号包起来， Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样，例如：
@@ -392,7 +394,8 @@ Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的�
 
 # 结语
 
-以上就是 Markdown 的的标准语法，当然现在有很多 Markdown 处理器使用的 superset-markdown ，比如：
+以上就是 Markdown 的的标准语法，当然现在有很多 Markdown 处理器使用的 superset-markdown ，比如：  
+
 -  表格标签
 -  插入“Enter”段内换行
 -  前后各用三个 ``` 高亮代码
