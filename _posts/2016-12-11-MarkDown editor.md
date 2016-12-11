@@ -20,7 +20,8 @@ Windows系统下，推荐大家用[MarkDownPad2][]，它支持多种markdown处�
 - 链接：<http://pan.baidu.com/s/1eRO1rpw>
 - 密码：ht2k
 
-***Tips:***  
+***Tips:***
+
 - **如果你使用的不是kramdown，那么你必须在_config.yml中将其修改为markdown:kramdown**
 - **可以在Tools->Options->Markdown中设置markdown prcessor**
 
