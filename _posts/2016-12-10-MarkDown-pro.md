@@ -300,9 +300,9 @@ This is ![an example][] reference-style link.
 
 [an example]: https://www.baidu.com "Optional Title Here"
 ```
-This is  a ![an example][] image.
+This is  a ![dog][] image.
 
-[an example]: http://www.lagou.com/upload/logo/ff80808145e62bd90145ee204ba26e6a.png "I am a dog!"
+[dog]: http://www.lagou.com/upload/logo/ff80808145e62bd90145ee204ba26e6a.png "I am a dog!"
 
 ### 强调
 Markdown 使用星号（*）和底线（_）作为标记强调字词的符号。
