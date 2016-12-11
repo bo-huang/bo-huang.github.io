@@ -237,7 +237,7 @@ id sem consectetuer libero luctus adipiscing.
 	  return 0;  
 	}
 
-代码区块中，一般的 Markdown 语法不会被转换，像是星号便只是星号，这表示你可以很容易地以 Markdown 语法撰写 Markdown 语法相关的文件。
+代码区块中，一般的 Markdown 语法不会被转换，像是星号便只是星号，这表示你可以很容易地**以 Markdown 语法撰写 Markdown 语法相关的文件**。
 
 ### 分割线
 
@@ -320,7 +320,7 @@ This is [an example][] reference-style link.
 
 This is [an example][] reference-style link.  
 
-[an example]: https://www.baidu.com "Optional Title Here"
+[an example]: https://www.baidu.com "Optional Title Here"  
 ### 图片
 图片和链接用法类似，区别是在前面加一个 ！ ：
 
