@@ -8,6 +8,7 @@ comment: true
 ---
 
 # 区块元素
+
 ### 段落与换行
 
 一个 Markdown **段落** 是由一个或多个连续的文本行组成，它的前后要有一个以上的空行（空行的定义是显示上看起来像是空的，便会被视为空行。比方说，若某一行只包含空格和制表符，则该行也会被视为空行）。普通段落不该用空格或制表符来缩进。
@@ -48,7 +49,7 @@ id sem consectetuer libero luctus adipiscing.
 > This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
 consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
 Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
+>
 > Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
 id sem consectetuer libero luctus adipiscing.
 
@@ -121,7 +122,9 @@ id sem consectetuer libero luctus adipiscing.
 2.  McHale
 3.  Parish
 ```
+
 很重要的一点是，你在列表标记上使用的数字并不会影响输出的 HTML 结果:
+
 ```
 <ol>
 <li>Bird</li>
@@ -131,17 +134,21 @@ id sem consectetuer libero luctus adipiscing.
 ```
 
 如果你的列表标记写成：
+
 ```
 1.  Bird
 1.  McHale
 1.  Parish
 ```
+
 或甚至是：
+
 ```
 3. Bird
 1. McHale
 8. Parish
 ```
+
 你都会得到完全相同的 HTML 输出。  
 建议第一个项目最好还是从 1. 开始，因为 Markdown 未来可能会支持有序列表的 start 属性。
 
@@ -150,6 +157,7 @@ id sem consectetuer libero luctus adipiscing.
 **思考:为什么不能是四个以上的空格？**
 
 **列表项目可以包含多个段落，每个项目下的段落都必须缩进 4 个空格或是 1 个制表符：**
+
 ```
 *   This is a list item with two paragraphs.
 
@@ -159,6 +167,7 @@ id sem consectetuer libero luctus adipiscing.
 
 *   Another item in the same list.
 ```
+
 *   This is a list item with two paragraphs.
 
     This is the second paragraph in the list item. You're
@@ -180,6 +189,7 @@ id sem consectetuer libero luctus adipiscing.
     > inside a list item.
     
 如果要放代码区块的话，该区块就需要缩进两次，也就是 8 个空格或是 2 个制表符：
+
 ```
 *   A list item with a blockcode:
 
@@ -190,6 +200,7 @@ id sem consectetuer libero luctus adipiscing.
      	  return 0;
 		}
 ```
+
 *   A list item with a blockcode:
 
 		#include<stdio.h>  
@@ -226,6 +237,7 @@ id sem consectetuer libero luctus adipiscing.
 ### 分割线
 
 你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：
+
 ```
 * * *
 
@@ -237,6 +249,7 @@ id sem consectetuer libero luctus adipiscing.
 
 ---------------------------------------
 ``` 
+
 * * *
 
 ***
@@ -248,25 +261,30 @@ id sem consectetuer libero luctus adipiscing.
 ---------------------------------------
 
 # 区段元素
+
 ### 链接
 Markdown 支持两种形式的链接语法： **行内式**和**参考式**两种形式。
 
 不管是哪一种，链接文字都是用 [方括号] 来标记。
 
 要建立一个行内式的链接，只要在方块括号后面紧接着圆括号并插入网址链接即可，如果你还想要加上链接的 title 文字，只要在网址后面，用双引号把 title 文字包起来即可，例如：
+
 ```
 This is [an example](https://www.baidu.com/ "Title") inline link.
 
 [This link](https://www.baidu.com/) has no title attribute.
 ```
+
 This is [an example](https://www.baidu.com/ "I am a title") inline link.
 
 [This link](https://www.baidu.com/) has no title attribute.
 
 如果你是要链接到同样主机的资源，你可以使用相对路径：
+
 ```
 See my [About](/about.html) page for details.
 ```
+
 See my [About](/about.html) page for details.
 
 参考式的链接是在链接文字的括号后面再接上另一个方括号，而在第二个方括号里面要填入用以辨识链接的标记：
@@ -274,10 +292,13 @@ See my [About](/about.html) page for details.
 ```
 This is [an example][baidu] reference-style link.
 ```
+
 接着，在文件的任意处，你可以把这个标记的链接内容定义出来：
+
 ```
 [baidu]: https://www.baidu.com/  "Optional Title Here"
 ```
+
 This is [an example][baidu] reference-style link. 
  
 [baidu]: https://www.baidu.com/  "Optional Title Here"
@@ -285,21 +306,25 @@ This is [an example][baidu] reference-style link.
 链接辨别标签可以有字母、数字、空白和标点符号，但是并不区分大小写。
 
 **隐式链接**标记功能让你可以省略指定链接标记，这种情形下，链接标记会视为等同于链接文字，要用隐式链接标记只要在链接文字后面加上一个空的方括号：
+
 ```
 This is [an example][] reference-style link.
 
 [an example]: https://www.baidu.com "Optional Title Here"
 ```
+
 This is [an example][] reference-style link.  
 
 [an example]: https://www.baidu.com "Optional Title Here"
 ### 图片
 图片和链接用法类似，区别是在前面加一个 ！ ：
+
 ```
 This is ![an example][] reference-style link.
 
 [an example]: https://www.baidu.com "Optional Title Here"
 ```
+
 This is  a ![dog][] image.
 
 [dog]: http://www.lagou.com/upload/logo/ff80808145e62bd90145ee204ba26e6a.png "I am a dog!"
@@ -310,18 +335,21 @@ Markdown 使用星号（*）和底线（_）作为标记强调字词的符号。
 ### 代码
 
 如果要标记一小段行内代码，你可以用反引号把它包起来（`）：
+
 ```
 Use the `printf()` function.
 ```
 Use the `printf()` function.
 
 如果要在代码区段内插入反引号，你可以用多个反引号来开启和结束代码区段：
+
 ```
 ``There is a literal backtick (`) here.``
 ```
 ``There is a literal backtick (`) here.``
 
 代码区段的起始和结束端都可以放入一个空白，起始端后面一个，结束端前面一个，这样你就可以在区段的一开始就插入反引号：
+
 ```
 A backtick-delimited string in a code span: `` `foo` ``
 ```
@@ -335,6 +363,7 @@ A backtick-delimited string in a code span: `` `foo` ``
 Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用方括号包起来， Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样，例如：
 
 	<https://www.baidu.com>
+
 <https://www.baidu.com>
 
 ### 反斜杠
