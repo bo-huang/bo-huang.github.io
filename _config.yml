@@ -112,7 +112,7 @@ disqus:
 
 duoshuo:
   config: true
-  id: bohuang
+  id: bhuang
 
 #baidu share config
 baiduShare:
