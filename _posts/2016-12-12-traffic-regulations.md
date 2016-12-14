@@ -78,9 +78,15 @@ comment: true
 
 **做了一套模拟题：**
 
-![score](/images/posts/practice_examination_score.png "test score")
+![score](/images/posts/practice_examination_score.png "first test score")
 
 补充：
 
 - 三个先行原则： 转弯的机动车让直行的机动车；右方道路来车先行；右转弯车让左转弯车先行
+
+**第二次模拟：**
+
+![score](/images/posts/practice_examination_score2.png "second test score")
+
+科目一准备到此结束！
 
