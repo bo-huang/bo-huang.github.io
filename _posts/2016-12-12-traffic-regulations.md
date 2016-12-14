@@ -78,7 +78,7 @@ comment: true
 
 **做了一套模拟题：**
 
-![score](/images/posets/practice_ examination_score.png "test score")
+![score](/images/posts/practice_ examination_score.png "test score")
 
 补充：
 
