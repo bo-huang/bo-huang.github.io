@@ -76,5 +76,11 @@ comment: true
 
 今天一天复习……明天考试！
 
+**做了一套模拟题：**
 
+![score][/images/posets/practice_ examination_score.png]
+
+补充错题：
+
+- 三个先行原则： 转弯的机动车让直行的机动车；右方道路来车先行；右转弯车让左转弯车先行
 
