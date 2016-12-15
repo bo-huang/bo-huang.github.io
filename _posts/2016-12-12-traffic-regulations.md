@@ -6,6 +6,8 @@ category: "随笔"
 comment: true
 ---
 
+# 科目一
+
 今天开始准备科目一，下载了驾考宝典，发现里面有1321道题，上午刷了250道。
 
 虽然看得脑袋有点晕，不过感觉通过做题还是学到了很多东西：
@@ -89,4 +91,7 @@ comment: true
 ![score](/images/posts/practice_examination_score2.png "second test score")
 
 科目一准备到此结束！
+
+**2016-12-15 15:42:53**  
+**科目一 100分 通过~**
 
