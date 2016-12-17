@@ -32,7 +32,7 @@ comment: true
 
 ##### 那么我们又怎么知道每一个表情分别对应的emojicode呢?  
 
-[这里][2]给出了详细的表emoji和code的对照表。
+[这里][2]给出了详细的emoji和code的对照表。
 
 [2]: http://www.webpagefx.com/tools/emoji-cheat-sheet/ "emoji-cheat-sheet"
 
