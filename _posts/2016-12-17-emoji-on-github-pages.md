@@ -14,10 +14,9 @@ comment: true
 
 [1]: https://help.github.com/articles/emoji-on-github-pages/ "emoji-on-github-pages"
 
-原来Jekyll是支持emoji表情的，不过首先需要在_config.yml中添加：  
-> gems: ['jemoji']
+原来Jekyll是支持emoji表情的，不过首先需要在_config.yml中添加：
 
----
+> gems: ['jemoji']
 
 #### 如何在文章中添加表情？
 
