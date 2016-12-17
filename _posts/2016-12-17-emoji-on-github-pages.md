@@ -9,6 +9,7 @@ comment: true
 因为平时写东西的时候习惯用一些表情，这样可以表达出很多文字表达不出来的心情（其实是博主语文水平有限，写不出来那么生动的句式）。但通过前面的学习，发现Markdown中并没有介绍如何添加表情，那是不是就不能在github pages中使用表情了呢？
 
 在[这里][1]我找到了答案:
+
 > You can use emoji within any Jekyll page or post, just like you would in a comment or issue within a repository on GitHub.
 
 [1]: https://help.github.com/articles/emoji-on-github-pages/ "emoji-on-github-pages"
@@ -20,14 +21,14 @@ comment: true
 
 #### 如何在文章中添加表情？
 
-> You can add emoji to your writing by typing ':EMOJICODE:'
+> You can add emoji to your writing by typing `:EMOJICODE:`
 
 例如：
 
-- ':+1:' :+1:
-- ':laughing:' :laughing:
-- ':relaxed:' :relaxed:
-- ':stuck_out_tongue_winking_eye:' :stuck_out_tongue_winking_eye:
+- `:+1:` :+1:
+- `:laughing:` :laughing:
+- `:relaxed:` :relaxed:
+- `:stuck_out_tongue_winking_eye:` :stuck_out_tongue_winking_eye:
 - and so on...
 
 那么我们又怎么知道每一个表情对应的emojicode呢?  
