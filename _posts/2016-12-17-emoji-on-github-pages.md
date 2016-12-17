@@ -30,7 +30,7 @@ comment: true
 - `:stuck_out_tongue_winking_eye:` :stuck_out_tongue_winking_eye:
 - and so on...
 
-那么我们又怎么知道每一个表情对应的emojicode呢?  
+##### 那么我们又怎么知道每一个表情对应的emojicode呢?  
 
 [这里][2]给出了详细的表emoji和code的对照表。
 
