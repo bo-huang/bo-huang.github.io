@@ -20,7 +20,7 @@ comment: true
 
 #### 如何在文章中添加表情？
 
-> You can add emoji to your writing by typing `:EMOJICODE:`
+在需要插入表情的地方输入 `:EMOJICODE:`, EMOJICODE指某一个表情对应的代码。
 
 例如：
 
@@ -30,7 +30,7 @@ comment: true
 - `:stuck_out_tongue_winking_eye:` :stuck_out_tongue_winking_eye:
 - and so on...
 
-##### 那么我们又怎么知道每一个表情对应的emojicode呢?  
+##### 那么我们又怎么知道每一个表情分别对应的emojicode呢?  
 
 [这里][2]给出了详细的表emoji和code的对照表。
 
