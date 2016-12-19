@@ -4,7 +4,7 @@ destination:  ./_site
 plugins_dir:      ./_plugins
 layouts_dir:      ./_layouts
 paginate:     8
-gems: [jekyll-paginate]
+gems: ['jekyll-paginate','jemoji']
 
 # Handling Reading
 safe:         false
