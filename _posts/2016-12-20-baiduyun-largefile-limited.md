@@ -10,7 +10,7 @@ comment: true
 
 ![largefile_upload_limited](/images/posts/largefile_upload_limited.jpg "largefile_upload_limited")
 
-刚刚得知百度PCS不再支持新用户接入,这样就无法申请使用API！！！    
+结果得知百度PCS不再支持新用户接入,这样就无法申请使用API！！！    
 百度开发者中心改版公告:<http://developer.baidu.com/forum/topic/show?topicId=135>
 
 ![pcs_close](/images/posts/bpcs_close.jpg "bpcs_close")
