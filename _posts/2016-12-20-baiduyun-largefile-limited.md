@@ -52,11 +52,10 @@ file=1234
 
 ---
 
-经过两天的努力终于写好了，项目地址:<https://github.com/bo-huang/bpcs>           
+经过两天的努力终于写好了，项目地址:<https://github.com/bo-huang/bpcs>         
+项目程序中都有详细的注释，此处就不再累赘实现过程了。         
   
 [Release版下载地址](https://github.com/bo-huang/bpcs_release)
-
-项目程序中都有详细的注释，此处就不再累赘实现过程了。
 
 **软件主界面：**
 
