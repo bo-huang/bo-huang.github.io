@@ -50,7 +50,10 @@ file=1234
 
 [官方文档]: <http://developer.baidu.com/wiki/index.php?title=docs/pcs/rest/file_data_apis_list#.E5.88.86.E7.89.87.E4.B8.8A.E4.BC.A0.E2.80.94.E6.96.87.E4.BB.B6.E5.88.86.E7.89.87.E5.8F.8A.E4.B8.8A.E4.BC.A0>
 
-经过两天的努力终于写好了，项目地址:<https://github.com/bo-huang/bpcs>
+---
+
+经过两天的努力终于写好了，项目地址:<https://github.com/bo-huang/bpcs>       
+项目程序中都有详细的注释，此处就不再累赘了。
 
 **软件主界面：**
 
