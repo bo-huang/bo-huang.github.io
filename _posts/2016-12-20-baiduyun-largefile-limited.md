@@ -60,3 +60,5 @@ file=1234
 ![bpcs_ui](/images/posts/bpcs_ui.jpg "bpcs")
 
 [Release版下载地址](https://github.com/bo-huang/bpcs_release)
+
+**说明：分片上传不支持秒传，所以对于小于4G的文件建议用百度网盘客户端上传。**
