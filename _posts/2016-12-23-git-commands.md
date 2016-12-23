@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Git
+title: Git语法复习
 date: 2016-12-23 11:28:25 
 category: "Git"
 comment: true
