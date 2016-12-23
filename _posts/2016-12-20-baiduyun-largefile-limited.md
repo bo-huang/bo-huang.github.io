@@ -36,7 +36,7 @@ file=1234
 在官方文档上也找不到这个错误的原因，向百度PCS技术支持人员发邮件询问也没人理（感觉百度快放弃PCS API的维护了，从今年8月份宣布不再支持新用户接入就可以看出）。
 
 这个时候奇迹发生了，抱着试一试的态度，我将POST改成PUT，结果竟然上传成功了:smile:   
-但有个小问题，官方文档说file参数通过body上传，于是很自热的想到body里面应该是 “file = 数据”，但最终上传到网盘中的数据却成了"file = 1234"，于是就把"file="去掉了。
+但有个小问题，官方文档说file参数通过body上传，于是很自然的想到body里面应该是 “file=1234”，但最终上传到网盘中的数据却成了"file=1234"，于是就把"file="去掉了。
 
 **前面的学习到此结束了，那么如何让百度网盘支持超过4GB的大文件上传呢？**
 
@@ -55,10 +55,21 @@ file=1234
 经过两天的努力终于写好了，项目地址:<https://github.com/bo-huang/bpcs>         
 项目程序中都有详细的注释，此处就不再累赘实现过程了。         
 
-**软件主界面：**
+#### 软件主界面
 
 ![bpcs_ui](/images/posts/bpcs_ui.jpg "bpcs")
 
-[Release版下载地址](https://github.com/bo-huang/bpcs_release)
 
-**说明：分片上传不支持秒传，所以对于小于4G的文件建议用百度网盘客户端上传。**
+#### 实验
+
+上传超过4GB的文件：
+
+![bpcs_uploading](/images/posts/bpcs_uploading.jpg "bpcs uploading")
+
+![bpcs_result](/images/posts/bpcs_result.jpg "bpcs result")
+
+[软件传送门](https://github.com/bo-huang/bpcs_release)
+
+#### 说明
+
+分片上传不支持秒传，所以对于小于4G的文件建议用百度网盘客户端上传。**
