@@ -23,7 +23,6 @@ comment: true
 解决方式：
 
 ```c#
-
 private void Upload()
 {
     uploadButton.Enabled = false;
@@ -51,7 +50,6 @@ private void Upload()
     files.Clear();
     uploadButton.Enabled = true;
 }
-
 ```
 
 #### 下载
