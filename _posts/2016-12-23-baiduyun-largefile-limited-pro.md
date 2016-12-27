@@ -8,7 +8,7 @@ comment: true
 
 在[让百度网盘支持大文件上传][1]中提到，百度PCS提供了两种上传方式的REST API，一种是普通上传方式，另一种是分片上传。由于官方文档上写了“普通上传方式只支持最大2GB的文件”，于是选择了分片上传API，这样就很好的解决了大文件上传受限的问题。
 
-[1]: (https://bo-huang.github.io/%E8%BD%AF%E4%BB%B6/2016/12/20/baiduyun-largefile-limited.html)
+[1]: https://bo-huang.github.io/%E8%BD%AF%E4%BB%B6/2016/12/20/baiduyun-largefile-limited.html
 
 其实官方文档上还有第三种上传方式: **秒传**，但当时想当然的认为这种上传方式肯定也只支持单文件2GB大小，于是就没有考虑它。
 
