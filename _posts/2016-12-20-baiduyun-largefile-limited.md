@@ -66,6 +66,10 @@ file=1234
 
 [软件传送门](https://github.com/bo-huang/bpcs_release)
 
-#### 说明
+---
 
-分片上传不支持秒传，所以对于不超过4G的文件建议用百度网盘客户端上传。
+#### 2016-12-23 新增了秒传接口
+
+详情见[让百度网盘支持大文件上传（续）][1]
+
+[1]: https://bo-huang.github.io/%E8%BD%AF%E4%BB%B6/2016/12/23/baiduyun-largefile-limited-pro.html
